@@ -14,30 +14,31 @@
     <link href="css/styles.css" rel="stylesheet" />
     <script defer src="js/script.js"></script>
   </head>
-  <body>
-    <main>
-      <header>
+  <body class="body">
+    <main class="main">
+      <header class="header">
         <h1>Lista zadań</h1>
       </header>
 
-      <section>
-        <h2>Dodaj nowe zadanie</h2>
-        <div>
-          <form>
+      <section class="section">
+        <h2 class="section__title">Dodaj nowe zadanie</h2>
+        <div class="section__content">
+          <form class="form">
             <input
               type="text"
               name="task"
+              class="form__input"
               placeholder="Co jest do zrobienia?"
               autofocus
             />
-            <button type="submit">Dodaj zadanie</button>
+            <button type="submit" class="form__button">Dodaj zadanie</button>
           </form>
         </div>
       </section>
-      <section>
-        <h2>Lista zadań</h2>
-        <div>
-          <ul></ul>
+      <section class="section">
+        <h2 class="section__title">Lista zadań</h2>
+        <div class="section__content">
+          <ul class="list"></ul>
         </div>
       </section>
     </main>
